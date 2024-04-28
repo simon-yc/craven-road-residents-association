@@ -45,6 +45,16 @@ nav-bar ul li {
     cursor: pointer;
 }
 
+nav-bar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav-bar ul li:hover {
+    color: rgb(150, 200, 300); 
+    transition: color 0.3s;
+}
+
 .menu-icon {
     display: none;
 }
@@ -54,7 +64,7 @@ nav-bar ul li {
     nav-bar ul {
         position: absolute;
         width: 100%;
-        background: #333;
+        background: #999;
         color: #fff;
         left: 0;
         top: 100%;
