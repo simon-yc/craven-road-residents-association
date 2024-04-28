@@ -9,7 +9,7 @@ nav-bar {
     padding: 15px 10%;
     border-bottom: 1px solid #000;
     z-index: 1000;
-    background: #fff;
+    background: rgba(240,239,241,1.00)
 }
 
 .container {
