@@ -44,7 +44,7 @@ nav-bar ul li a {
     color: black;
 }
 
-nav-bar ul li:hover {
+nav-bar ul li a:hover {
     color: rgb(150, 200, 300); 
     transition: color 0.3s;
 }
