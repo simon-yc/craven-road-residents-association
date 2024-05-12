@@ -1,0 +1,19 @@
+/* CSS for fex container */
+.photo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo {
+  width: 50%;
+  height: auto;
+  margin: 10px;
+  max-width: 400px;
+}
+
+@media (max-width: 768px) {
+  .photo {
+    width: 80%;
+  }
+}

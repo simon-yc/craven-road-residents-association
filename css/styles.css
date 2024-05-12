@@ -1,12 +1,35 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 main {
-    padding-top: 130px;
-    padding-left: 50px;
-    padding-right: 50px;
+  padding-top: 130px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1.2;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
 }
