@@ -15,10 +15,17 @@ h1 {
   font-size: 2em;
   line-height: 1.2;
   font-weight: bold;
-  margin-bottom: 20px;
-  padding-top: 20px; /* Add padding above */
-  padding-bottom: 20px; /* Add padding below */
+  padding-top: 10px; /* Add padding above */
+  padding-bottom: 10px; /* Add padding below */
 }
+
+h1 {
+    font-size: 1.5em;
+    line-height: 1.3;
+    font-weight: bold;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+  }
 
 p {
   font-size: 1em;
