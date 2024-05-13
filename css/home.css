@@ -1,3 +1,7 @@
+.centre-container {
+    text-align: center;
+  }
+
 /* CSS for fex container */
 .photo-container {
   display: flex;
