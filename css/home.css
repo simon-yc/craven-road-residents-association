@@ -9,7 +9,8 @@
   width: 50%;
   height: auto;
   margin: 10px;
-  max-width: 400px;
+  max-width: 275px;
+  border: 5px solid #555;
 }
 
 @media (max-width: 768px) {
