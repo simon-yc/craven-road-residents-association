@@ -58,8 +58,8 @@ nav-bar ul li a:hover {
     nav-bar ul {
         position: absolute;
         width: 100%;
-        background: #999;
-        color: #fff;
+        background: rgba(260, 260, 260, 1.00);
+        color: black;
         left: 0;
         top: 100%;
         text-align: center;
