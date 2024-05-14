@@ -67,8 +67,10 @@ nav-bar ul li.dropdown .dropdown-content {
     position: absolute;
     background: rgba(235, 235, 235, 1.00);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    min-width: 160px;
+    min-width: 90px;
     z-index: 1;
+    /* make the font size smaller */
+    font-size: 14px;
 }
 
 nav-bar ul li.dropdown .dropdown-content li {
