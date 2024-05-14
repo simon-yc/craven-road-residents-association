@@ -39,6 +39,11 @@ p {
   padding-bottom: 0.15em;
 }
 
+ul, ol {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
 @media only screen and (max-width: 1200px) {
   h1 {
     font-size: 1.5em;
