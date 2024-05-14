@@ -130,11 +130,11 @@ nav-bar ul li.dropdown .dropdown-content.show-dropdown {
   }
 
   .show-menu {
-    max-height: 1000px;
+    max-height: 5000px;
   }
 
   .show-dropdown {
-    max-height: 1000px;
+    max-height: 5000px;
   }
 
   /* Style adjustments for dropdown in mobile view */
