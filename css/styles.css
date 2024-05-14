@@ -10,7 +10,7 @@ body {
 }
 
 main {
-  padding-top: 135px; /* Adjusted to include space for the navbar */
+  padding-top: 135px; 
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -31,7 +31,7 @@ h2 {
   padding-bottom: 0.5em;
 }
 
-p {
+p,li {
   font-size: 1em;
   line-height: 1.5;
   margin-bottom: 1%;
