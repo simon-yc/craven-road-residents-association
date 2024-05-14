@@ -5,6 +5,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+    background: rgba(245, 245, 245, 1.00); /* Light grey color */
+}
+
 main {
   padding-top: 130px;
   padding-left: 50px;
