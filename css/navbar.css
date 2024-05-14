@@ -80,11 +80,12 @@ nav-bar ul li.dropdown .dropdown-content li {
   text-align: left;
   margin: 0;
   border-bottom: 1px solid #000;
+  text-align: center;
 }
 
-nav-bar ul li.dropdown .dropdown-content li:last-child {
+/* nav-bar ul li.dropdown .dropdown-content li:last-child {
   border-bottom: none;
-}
+} */
 
 nav-bar ul li.dropdown .dropdown-content li a {
   color: black;
