@@ -66,7 +66,7 @@ nav-bar ul li.dropdown {
 nav-bar ul li.dropdown .dropdown-content {
   display: none;
   position: absolute;
-  background: rgba(235, 235, 235, 1);
+  background: rgba(240, 240, 240, 1);
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   min-width: 90px;
   z-index: 1;
@@ -115,7 +115,7 @@ nav-bar ul li.dropdown:hover .dropdown-content {
     flex-direction: column; /* Change to column layout */
     position: absolute;
     width: 100%;
-    background: rgba(240, 240, 240, 1); /* Lighter grey color */
+    background: rgba(235, 235, 235, 1);
     color: black;
     left: 0;
     top: 100%;
