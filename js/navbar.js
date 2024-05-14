@@ -11,16 +11,19 @@ document.addEventListener("DOMContentLoaded", function() {
 function initDropdownToggle() {
   const menuLinks = document.querySelector('#menu-links');
   const menuIcon = document.querySelector('.menu-icon');
-  const dropdown = document.querySelector('.dropdown');
+  const dropdowns = document.querySelectorAll('.dropdown'); // Select all dropdowns
 
   menuIcon.onclick = function() {
-      menuLinks.classList.toggle("show-menu");
+    menuLinks.classList.toggle("show-menu");
   };
 
-  // Adding click event listener for toggling the dropdown
-  dropdown.onclick = function(event) {
-      event.stopPropagation(); // Prevents the menu from toggling when clicking on the dropdown
+  // Adding click event listener for toggling each dropdown
+  dropdowns.forEach(dropdown => {
+    dropdown.onclick = function(event) {
+      event.stopPropagation();
       const dropdownContent = this.querySelector('.dropdown-content');
       dropdownContent.classList.toggle('show-dropdown');
-  };
+    };
+  });
 }
+
