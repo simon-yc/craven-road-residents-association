@@ -65,13 +65,13 @@ nav-bar ul li.dropdown {
 }
 
 nav-bar ul li.dropdown .dropdown-content {
+  margin-top: 3px;
   display: none;
   position: absolute;
   background: rgba(240, 240, 240, 1);
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   min-width: 90px;
   z-index: 1;
-  /* make the font size smaller */
   font-size: 14px;
 }
 
@@ -154,6 +154,7 @@ nav-bar ul li.dropdown:hover .dropdown-content {
   }
 
   nav-bar ul li.dropdown .dropdown-content {
+    margin-top: 5px;
     position: static; /* Prevents absolute positioning issues on mobile */
     width: 100%; /* Full width for better touch interaction */
     box-shadow: none; /* Removes shadow for a cleaner look */
@@ -164,7 +165,6 @@ nav-bar ul li.dropdown:hover .dropdown-content {
     width: 100%; /* Full width for easier touch */
     padding: 15px; /* Larger padding for easier touch interaction */
     border-bottom: 1px solid #d3d3d3; /* Lighter border for subtle separation */
-    /* make the font size smaller */
     font-size: 12px;
   }
 
