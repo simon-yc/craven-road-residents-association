@@ -12,6 +12,7 @@
   }
   
   .photo-item {
+    max-height: 75vh;
     flex-shrink: 0;
     flex-basis: 100%;
     display: flex;
