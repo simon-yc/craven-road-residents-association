@@ -18,14 +18,14 @@ main {
 
 h1 {
   font-size: 2em;
-  line-height: 1.2;
+  line-height: 1;
   font-weight: bold;
   padding-top: 0.5em; 
   padding-bottom: 0.5em;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.3em;
   line-height: 1.3;
   font-weight: bold;
   padding-top: 0.5em;
@@ -33,7 +33,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.2em;
+    font-size: 1em;
     line-height: 1.4;
     font-weight: bold;
     padding-top: 0.5em;
@@ -43,9 +43,9 @@ h3 {
 p,li {
   font-size: 1em;
   line-height: 1.5;
-  margin-bottom: 0.5%;
-  padding-top: 0.1em;
-  padding-bottom: 0.1em;
+  margin-bottom: 1%;
+  padding-top: 0.15em;
+  padding-bottom: 0.15em;
 }
 
 ul, ol {
@@ -55,14 +55,14 @@ ul, ol {
 
 @media only screen and (max-width: 1200px) {
   h1 {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 
   h2 {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   p {
-    font-size: 0.9em;
+    font-size: 0.7em;
   }
 }
