@@ -12,6 +12,7 @@
   }
   
   .photo-item {
+    max-height: 75vh;
     flex-shrink: 0;
     flex-basis: 100%;
     display: flex;
@@ -25,11 +26,10 @@
   }
   
   .photo-item img {
-    max-height: 75%;
     width: 100%;
     height: 100%;
     transition: transform 0.3s ease-in-out;
-    border: 2px solid #000;
+    border: 3px solid #000;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
@@ -55,7 +55,7 @@
     transform: translateY(-25%); 
     background-color: rgba(0,0,0,0.5);
     color: white;
-    border: none;
+    border: 2px solid #000;
     cursor: pointer;
     padding: 1vw;
     z-index: 10;
