@@ -40,17 +40,24 @@ h3 {
     padding-bottom: 0.5em;
 }
 
-p,li {
+p {
   font-size: 1em;
   line-height: 1.5;
   margin-bottom: 1%;
-  padding-top: 0.15em;
   padding-bottom: 0.15em;
+}
+
+li {
+  font-size: 1em;
+  line-height: 1.5;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
 }
 
 ul, ol {
   padding-left: 2em;
   padding-right: 2em;
+  padding-bottom: 1em;
 }
 
 @media only screen and (max-width: 1200px) {
