@@ -1,6 +1,6 @@
 .centre-container {
-    text-align: center;
-  }
+  text-align: center;
+}
 
 /* CSS for fex container */
 .photo-container {
@@ -17,8 +17,20 @@
   border: 5px solid #555;
 }
 
+.large-photo {
+  width: 100%;
+  height: auto;
+  margin: 20px;
+  max-width: 500px;
+  border: 5px solid #555;
+}
+
 @media (max-width: 768px) {
   .photo {
     width: 80%;
+  }
+
+  .large-photo {
+    width: 100%;
   }
 }
