@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
       rel="stylesheet"
     />
 </head>
@@ -17,37 +17,13 @@
     <script src="js/navbar.js"></script>
 
     <main>
-        <div class="slider">
-            <div class="slides">
-              <div class="photo-item slide">
-                <img src="media/gallery/our-trees/photo1.jpeg" alt="Ash tree"/>
-                <div class="photo-description">Ash tree</div>
-              </div>
-              <div class="photo-item slide">
-                <img src="media/gallery/our-trees/photo2.jpeg" alt="photo 2"/>
-              </div>
-              <div class="photo-item slide">
-                <img src="media/gallery/our-trees/photo3.jpeg" alt="photo 3"/>
-              </div>
-              <div class="photo-item slide">
-                <img src="media/gallery/our-trees/photo4.jpeg" alt="photo 4"/>
-              </div>
-              <div class="photo-item slide">
-                <img src="media/gallery/our-trees/photo5.jpeg" alt="photo 5"/>
-              </div>
-              <div class="photo-item slide">
-                <img src="media/gallery/our-trees/photo6.jpeg" alt="photo 6"/>
-              </div>
-              <div class="photo-item slide">
-                <img src="media/gallery/our-trees/photo7.jpeg" alt="photo 7"/>
-              </div> 
-            </div>
+        <div class="slider" data-base-path="media/gallery/our-trees/" data-image-names='["photo1.jpeg", "photo2.jpeg", "photo3.jpeg", "photo4.jpeg", "photo5.jpeg", "photo6.jpeg", "photo7.jpeg"]' data-image-descriptions='["Ash tree", "", "Pine tree", "Maple tree", "Birch tree", "Cherry tree", "Apple tree"]'>
+            <div class="slides"></div>
             <button class="prev">&#10094;</button>
             <button class="next">&#10095;</button>
-          </div>
-          
+        </div>
     </main>
 
-    <script src="js/slider.js"></script>
-  </body>
+    <script src="js/photo-slider.js"></script>
+</body>
 </html>
