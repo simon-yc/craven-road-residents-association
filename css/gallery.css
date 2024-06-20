@@ -3,7 +3,7 @@
   width: 50%;
   margin: 0 auto;
   margin-top: 1%;
-  margin-bottom: 2%;
+  margin-bottom: 3%;
   overflow: hidden;
 }
 
@@ -22,7 +22,7 @@
   text-align: center;
   overflow: hidden;
   position: relative;
-  height: 100vh;
+  height: auto; 
 }
 
 .photo-item img {
