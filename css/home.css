@@ -20,7 +20,15 @@
   width: 100%;
   height: auto;
   margin: 20px;
-  max-width: 500px;
+  max-width: 800px;
+  border: 5px solid #555;
+}
+
+.extra-large-image {
+  width: 100%;
+  height: 90vh;
+  margin: 20px auto;
+  max-width: 1200px;
   border: 5px solid #555;
 }
 
@@ -31,6 +39,11 @@
 
   .large-photo {
     width: 100%;
+  }
+
+  .extra-large-image {
+    height: 70vh;
+    max-width: 100%;
   }
 }
 
